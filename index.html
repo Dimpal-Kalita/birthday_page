@@ -20,23 +20,10 @@
 </head>
 
 <body>
-  <div id="clk">
-    <audio class="song" loops controls>
-      <source src="https://www.8notes.com/school/mp32/piano/happy_birthday.mp3"></audio>
-  </div>
-  <script>
-    alert("Use laptop for better experience");
-   $('#clk').click(function(){
-        var audio = $('.song')[0];
-        try{
-        navigator.vibrate(20);}
-        catch(Exception){
-            console.log("Vibrate mode is not supported")
-        }
-        audio.play();        
-});
-  </script>
-
+    <audio id="myAudio" loops controls autoplay>
+      <source src="https://www.8notes.com/school/mp32/piano/happy_birthday.mp3" type="audio/ogg"></audio>
+  
+  
   <div id="card">
     <div id="card-inside">
       <div class="wrap">
@@ -72,7 +59,7 @@
         <div class="polaroid">
           <div class="img" style="background-image: url('img/DSC_5132-min.jpeg')"></div>
         </div>
-        <div data-balloon="Hey, we don't have much words to say on the occasion and neither did we plan some huge suprises! we just wanted to wish you a sweet and cherishing birthday and we did wanted to make it special,so we did what we can do the best in online mood.😁" data-balloon-length="large" data-balloon-pos="up"
+        <div data-balloon="Hey, we don't have much words to say on the occasion and neither did we plan some huge suprises! we just wanted to wish you a sweet and cherishing birthday and we did wanted to make it special,so we did what we can do the best in online mode.😁" data-balloon-length="large" data-balloon-pos="up"
           data-balloon-visible></div>
       </div>
       <div class="shadow"></div>
