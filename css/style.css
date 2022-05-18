@@ -6,6 +6,7 @@
 
 body {
   background: #e5e5e5;
+  height: 150vh;
 }
 
 
@@ -17,7 +18,7 @@ body {
 #card,
 #card-front,
 #card-inside {
-  height: 590px;
+  height: 670px;
 }
 
 .wrap {
@@ -43,7 +44,7 @@ body {
 
 #card {
   width: 960px;
-  margin: auto;
+  margin: 150px auto;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   -webkit-perspective: 5000px;
@@ -54,11 +55,6 @@ body {
   transition: -webkit-transform 1s ease-in-out;
   transition: transform 1s ease-in-out;
   transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
 }
 
 #card h1 {
@@ -72,7 +68,7 @@ body {
 }
 
 #card-inside {
-  font-size: 1.3em;
+  font-size: 1.5em;
   line-height: 1.4;
   font-family: "Lobster";
   color: #331717;
@@ -91,7 +87,7 @@ p.signed {
   margin-top: 1.5em;
   text-align: center;
   font-family: "Indie Flower", cursive;
-  font-size: 1.5em;
+  font-size: 0.9em;
 }
 
 #card-front {
@@ -439,4 +435,8 @@ footer {
   to {
     opacity: 1;
   }
+}
+
+.wobble{
+  font-size: 1.6em;
 }
